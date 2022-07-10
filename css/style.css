@@ -119,6 +119,7 @@ input[type="url"]:placeholder{color:#666;}
     max-width: 100%;
     padding: 0 120px;
 }
+header{margin-bottom: 100px;}
 nav{
     align-items: center;
     background: #405CA3;
@@ -134,7 +135,10 @@ nav ul{
 nav ul li{font: 400 15px/20px Arial, Helvetica, Sans-Serif;}
 /* h2 */
 h2{
-    font: 900 29px/35px Arial, Helvetica, Sans-Serif;
+    font: 900 39px/35px Arial, Helvetica, Sans-Serif;
     text-transform: uppercase;
 }
-.block{display: block;}
+.conosco{
+    color: #405CA3;
+    padding-top: 23px;
+}
