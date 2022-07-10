@@ -55,7 +55,7 @@ html{scroll-behavior:smooth;}
 body{
   background:#fff;
   color:#000;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:Verdana;
   font-size:14px;
   line-height:1;
 }
@@ -86,7 +86,7 @@ select{
   border:0;
   border: 1px solid #ccc;
   color:#000;
-  font:14px Arial, Helvetica, sans-serif;
+  font:14px Verdana;
   background:transparent;
   width:100%;
 }
@@ -101,7 +101,7 @@ input[type="submit"],
 input[type="button"],
 button{
   text-transform:uppercase;
-  font:12px Arial, Helvetica, sans-serif;
+  font:12px Verdana;
   background:transparent;
 }
 input[type="text"]:placeholder,
@@ -125,29 +125,29 @@ header{
     position: fixed;
     top: 0;
 }
-nav{
+header nav{
     align-items: center;
     color: #fff;
     display: flex;
     height: 80px;
     justify-content: space-between;
 }
-nav ul{
+header nav ul{
     display: flex;
     gap: 68px;
 }
-nav ul li{
-    font: 400 15px/20px Arial, Helvetica, Sans-Serif;
+header nav ul li{
+    font: 400 15px/20px Verdana;
     letter-spacing: 0.04em;
 }
 /* main */
 main{padding-top: 180px;}
 /* h2 */
-section{
+main section:first-child{
     margin-bottom: 53px;
 }
 h2{
-    font: 900 39px/35px Arial, Helvetica, Sans-Serif;
+    font: 900 39px/35px Verdana;
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
@@ -181,25 +181,26 @@ main section:last-child{
     gap: 122px;
 }
 main section:last-child article:nth-child(2) p{
-    font: 400 15px/18px Arial, Helvetica, Sans-Serif;
-    letter-spacing: 0.04em;
+    font: 400 15px/18px Verdana;
     margin-bottom: 40px;
-    width: 64%;
+    width: 67%;
 }
-form ul li:nth-child(5) input{
-    height: 153px;
+textarea{
+    height: 149px;
 }
-form ul li input{
-    margin: 8px 0 20px;
+form ul li input, textarea{
+    margin: 8px 0 15px;
 }
 form ul li label{
     color: #405CA3;
-    font: 900 14px/15px Arial, Helvetica, Sans-Serif;
+    font: 900 14px/15px Verdana;
 }
 input[type="text"], input[type="tel"], input[type="email"]{
+    height: 26px;
+}
+input[type="text"], input[type="tel"], input[type="email"], textarea{
     border-radius: 2px;
     display: block;
-    height: 26px;
     max-width: 534px;
 }
 input[type="button"]{
@@ -207,5 +208,40 @@ input[type="button"]{
     border: 0;
     color: #fff;
     cursor: pointer;
-    padding: 17px 60px;
+    padding: 14px 60px;
+    margin-bottom: 57px;
+}
+/* footer */
+footer{
+    background: #405CA3;
+    color: #fff;
+}
+footer nav{
+    border-bottom: 1px solid rgba(216, 216, 216, 0.3);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 63px 0 28px;
+}
+footer nav ul li{
+    font-size: 13px;
+    margin-top: 16px;
+}
+footer nav ul:first-child li:last-child ul{
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+}
+footer h3{
+    font: 900 15px/20px Verdana;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+footer p{
+    font-size: 11px;
+    padding: 30px 0 37px;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+    text-transform: uppercase;
 }
