@@ -152,5 +152,20 @@ h2{
 }
 /* contato */
 main section:nth-child(2) a{
-    display: block;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: center;
+    padding-left: 18px;
+    width: 249px;
+}
+main section:nth-child(2) a:first-child{
+    background: #43527A;
+}
+main section:nth-child(2) a:nth-child(2){
+    background: #405CA3;
+}
+main section:nth-child(2) a:last-child{
+    background: #23418A;
 }
