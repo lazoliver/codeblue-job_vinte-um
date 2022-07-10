@@ -113,3 +113,9 @@ input[type="email"]:placeholder,
 input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#666;}
+/* Estilização */
+/* container */
+.container{
+    max-width: 100%;
+    padding: 0 120px;
+}
