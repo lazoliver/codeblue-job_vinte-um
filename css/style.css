@@ -132,3 +132,9 @@ nav ul{
     gap: 68px;
 }
 nav ul li{font: 400 15px/20px Arial, Helvetica, Sans-Serif;}
+/* h2 */
+h2{
+    font: 900 29px/35px Arial, Helvetica, Sans-Serif;
+    text-transform: uppercase;
+}
+.block{display: block;}
