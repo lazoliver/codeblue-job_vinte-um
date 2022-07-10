@@ -131,4 +131,4 @@ nav ul{
     display: flex;
     gap: 68px;
 }
-nav ul li{font: 700 12px/15px Arial;}
+nav ul li{font: 400 15px/20px Arial, Helvetica, Sans-Serif;}
