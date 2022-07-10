@@ -119,12 +119,15 @@ input[type="url"]:placeholder{color:#666;}
     margin: 0 auto;
     max-width: 100%;
 }
-main, nav{width: 1121px;}
+main, nav{width: 1110px;}
 /* header */
 header{
     background: #405CA3;
-    margin-bottom: 100px;
     justify-content: center;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
 }
 nav{
     align-items: center;
@@ -138,6 +141,8 @@ nav ul{
     gap: 68px;
 }
 nav ul li{font: 400 15px/20px Arial, Helvetica, Sans-Serif;}
+/* main */
+main{padding-top: 180px;}
 /* h2 */
 section{
     margin-bottom: 53px;
