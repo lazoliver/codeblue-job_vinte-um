@@ -55,7 +55,7 @@ html{scroll-behavior:smooth;}
 body{
   background:#fff;
   color:#000;
-  font-family:Verdana;
+  font-family:'Work Sans';
   font-size:14px;
   line-height:1;
 }
@@ -86,7 +86,7 @@ select{
   border:0;
   border: 1px solid #ccc;
   color:#000;
-  font:14px Verdana;
+  font:14px 'Work Sans';
   background:transparent;
   width:100%;
 }
@@ -101,7 +101,7 @@ input[type="submit"],
 input[type="button"],
 button{
   text-transform:uppercase;
-  font:12px Verdana;
+  font:12px 'Work Sans';
   background:transparent;
 }
 input[type="text"]:placeholder,
@@ -137,7 +137,7 @@ header nav ul{
     gap: 68px;
 }
 header nav ul li{
-    font: 400 15px/20px Verdana;
+    font: 400 15px/20px 'Work Sans';
     letter-spacing: 0.04em;
 }
 /* main */
@@ -147,7 +147,7 @@ main section:first-child{
     margin-bottom: 53px;
 }
 h2{
-    font: 900 39px/35px Verdana;
+    font: 900 39px/35px 'Work Sans';
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
@@ -157,14 +157,12 @@ h2{
 }
 /* contato */
 main section:nth-child(2) a{
+    align-items: center;
     color: #fff;
     display: flex;
-    flex-direction: column;
-    height: 80px;
     letter-spacing: 0.04em;
-    justify-content: center;
-    padding-left: 18px;
-    width: 249px;
+    padding: 31px 18px;
+    min-height: 80px;
 }
 main section:nth-child(2) a:first-child{
     background: #43527A;
@@ -175,25 +173,32 @@ main section:nth-child(2) a:nth-child(2){
 main section:nth-child(2) a:last-child{
     background: #23418A;
 }
+.whatsapp::before, .telefone::before, .mail::before{
+    margin-right: 16px;
+}
+.whatsapp::before{content: url(../images/whats-icon.svg);}
+.telefone::before{content: url(../images/telefone-icon.svg);}
+.mail::before{content: url(../images/mail-icon.svg);}
 /* formulário */
 main section:last-child{
     display: flex;
     gap: 122px;
 }
 main section:last-child article:nth-child(2) p{
-    font: 400 15px/18px Verdana;
+    font: 400 15px/18px 'Work Sans';
     margin-bottom: 40px;
     width: 67%;
 }
 textarea{
     height: 149px;
+    resize: none;
 }
 form ul li input, textarea{
     margin: 8px 0 15px;
 }
 form ul li label{
     color: #405CA3;
-    font: 900 14px/15px Verdana;
+    font: 900 14px/15px 'Work Sans';
 }
 input[type="text"], input[type="tel"], input[type="email"]{
     height: 26px;
@@ -211,7 +216,6 @@ input[type="button"]{
     padding: 14px 60px;
     margin-bottom: 57px;
 }
-textarea{resize: none;}
 /* footer */
 footer{
     background: #405CA3;
@@ -233,7 +237,7 @@ footer nav ul:first-child li:last-child ul{
     margin-top: 24px;
 }
 footer h3{
-    font: 900 15px/20px Verdana;
+    font: 900 15px/20px 'Work Sans';
     margin-bottom: 30px;
     text-transform: uppercase;
 }
