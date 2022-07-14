@@ -162,7 +162,7 @@ nav li ul a:hover{
 .dropdown a::after{
     content:"";
     border:solid #fff; 
-    border-width:0 3px 3px 0; 
+    border-width:0 1px 1px 0; 
     display:inline-block; 
     padding:3px;
     position: absolute;
