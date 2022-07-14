@@ -154,13 +154,24 @@ header nav li ul li{
     width: 100%;
 }
 nav li:hover ul li{display: block;}
-nav li div{padding-left: 4px;}
-nav li:hover div{
-    transform: rotateX(180deg);
-}
 nav li ul a{color: #000;}
 nav li ul a:hover{
     color: #ccc
+}
+.dropdown{position: relative;}
+.dropdown a::after{
+    content:"";
+    border:solid #fff; 
+    border-width:0 3px 3px 0; 
+    display:inline-block; 
+    padding:3px;
+    position: absolute;
+    top: 30%;
+    margin-left: 5px;
+    transform:rotate(45deg);
+}
+li:hover .dropdown a::after{
+    transform: rotate(225deg);
 }
 /* main */
 main{padding-top: 180px;}
