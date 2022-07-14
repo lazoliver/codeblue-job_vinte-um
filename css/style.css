@@ -152,6 +152,7 @@ h2{
 }
 .conosco{
     color: #405CA3;
+    display: block;
     padding-top: 23px;
 }
 /* contato */
