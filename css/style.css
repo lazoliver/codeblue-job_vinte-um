@@ -172,6 +172,9 @@ main section:nth-child(2) a:nth-child(2){
 main section:nth-child(2) a:last-child{
     background: #23418A;
 }
+.whatsapp, .telefone, .mail{
+    display: flex;
+}
 .whatsapp::before, .telefone::before, .mail::before{
     margin-right: 16px;
 }
@@ -254,3 +257,17 @@ footer p{
     font-weight: bold;
     text-transform: uppercase;
 }
+.div{
+    background-color: #090;
+    right: -126px;
+    padding: 13px 18px;
+    position: fixed;
+    top: 45%;
+    transition: 0.5s ease all;
+    z-index: 999;
+}
+.div:hover{
+    right: 0;
+}
+.whatsapp a, .telefone a, .mail a{color: #fff;}
+div .whatsapp a:hover{color: #ccc}
